@@ -7,4 +7,10 @@
     <RootNamespace>SistemaVenta_AplicacionWeb</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaVenta.BLL\SistemaVenta.BLL.csproj" />
+    <ProjectReference Include="..\SistemaVenta.Entity\SistemaVenta.Entity.csproj" />
+    <ProjectReference Include="..\SistemaVenta.IOC\SistemaVenta.IOC.csproj" />
+  </ItemGroup>
+
 </Project>
