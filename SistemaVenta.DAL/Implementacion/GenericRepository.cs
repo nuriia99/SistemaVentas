@@ -31,7 +31,7 @@ namespace SistemaVenta.DAL.Implementacion
                 throw new NotImplementedException();
             }
         }
-        
+
 
         public async Task<TEntity> Crear(TEntity entidad)
         {
@@ -88,4 +88,5 @@ namespace SistemaVenta.DAL.Implementacion
             }
 
         }
+    }
 }
