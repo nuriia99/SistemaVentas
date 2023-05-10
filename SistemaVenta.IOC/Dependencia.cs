@@ -32,6 +32,7 @@ namespace SistemaVenta.IOC
             services.AddScoped<IFirebaseService, FirebaseService>();
             services.AddScoped<IUtilidadesService, UtilidadesService>();
             services.AddScoped<IRolService, RolService>();
+            services.AddScoped<IUsuarioService, UsuarioService>();
         }
     }
 }
