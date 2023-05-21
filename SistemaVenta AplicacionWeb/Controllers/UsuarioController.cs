@@ -40,7 +40,7 @@ namespace SistemaVenta_AplicacionWeb.Controllers
         public async Task<IActionResult> ListaUsuarios()
         {
             List<VMUsuario> vmUsuarioLista = _mapper.Map<List<VMUsuario>>(await _usuarioServicio.Lista());
-            return StatusCode(StatusCodes.Status200OK, new {dara = vmUsuarioLista});
+            return StatusCode(StatusCodes.Status200OK, new {data = vmUsuarioLista});
         }
         [HttpPost]
         public async Task<IActionResult> CrearUsuario([FromForm] IFormFile foto, [FromForm] string modelo)
